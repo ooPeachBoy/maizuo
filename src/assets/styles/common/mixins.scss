@@ -1,0 +1,25 @@
+//提供公用的函数去使用
+@mixin border-top {
+    position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    background: #ededed;
+    transform: scaleY(0.5);
+  }
+}
+@mixin border-bottom {
+    position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    background: #ededed;
+    transform: scaleY(0.5);
+  }
+}
