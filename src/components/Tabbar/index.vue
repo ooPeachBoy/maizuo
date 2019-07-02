@@ -1,4 +1,5 @@
 <template>
+<!-- tabbar组件 -->
   <div class="mz-tabbar">
     <ul class="mz-tabbar__ul">
       <li class="mz-tabbar__li" v-for="(tab,index) in tabs" :key="index">

@@ -1,4 +1,6 @@
+
 <template>
+
   <div class="page-home">
     <router-view></router-view>
     <Tabbar
