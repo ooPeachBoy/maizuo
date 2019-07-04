@@ -1,5 +1,5 @@
 <template>
-<!-- tabbar组件 -->
+  <!-- tabbar组件 -->
   <div class="mz-tabbar">
     <ul class="mz-tabbar__ul">
       <li class="mz-tabbar__li" v-for="(tab,index) in tabs" :key="index">
@@ -46,10 +46,10 @@ export default {
       flex-direction: column;
       align-items: center;
       text-decoration: none;
-      font-size: px2rem(10);
+      font-size: 10px;
       color: #797d82;
       .iconfont {
-        font-size: px2rem(24);
+        font-size: 24px;
         margin-bottom: 2px;
       }
       &.active {

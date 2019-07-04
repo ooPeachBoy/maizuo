@@ -78,7 +78,7 @@ export default {
     left: px2rem(7);
     color: #fff;
     z-index: 10;
-    font-size: px2rem(13);
+    font-size: 13px;
     background: rgba(0, 0, 0, 0.2);
     height: px2rem(30);
     line-height: px2rem(30);
@@ -87,7 +87,7 @@ export default {
     padding: 0 px2rem(5);
 }
 i{
-    font-size: px2rem(10);
+    font-size:10px;
 }
 </style>
 
